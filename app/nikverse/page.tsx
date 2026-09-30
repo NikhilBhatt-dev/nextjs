@@ -1,3 +1,5 @@
+import Button from "@/components/Button"
+
 export default function Nikverse(){
     return(
         <>
@@ -5,6 +7,8 @@ export default function Nikverse(){
             <h1>
                 This is Nikverse
                 <p> start your jounery in Nikverse</p>
+                <Button />
+                   
             </h1>
         </main>
         </>

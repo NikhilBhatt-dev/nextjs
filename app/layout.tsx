@@ -28,6 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <nav className="bg-gray-800 text-white p-4 flex gap-2"> 
         <Link href="/about">About</Link>
         <Link href="/nikverse">Nikverse</Link>
+        <Link href="/classroom">classroom</Link>
         </nav>{children}</body>
     </html>
   );
